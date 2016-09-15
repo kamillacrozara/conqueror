@@ -8,6 +8,7 @@ module.exports = function(defaults) {
   });
 
   app.import("vendor/adminlte/app.js");
+  app.import("vendor/landing/smoothscroll.js");
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
