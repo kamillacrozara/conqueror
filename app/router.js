@@ -9,9 +9,14 @@ Router.map(function() {
   this.route('app', {path: '/'}, function() {
     this.route('dashboard');
   });
-  
+
   this.route('login');
   this.route('signup');
+  
+  this.route('user', function() {
+    this.route('new');
+    this.route('edit');
+  });
 });
 
 export default Router;
